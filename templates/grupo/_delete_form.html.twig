@@ -1,0 +1,8 @@
+{# agendaS4/templates/grupo/_delete_form.html.twig #}
+
+{# Formulario _delete_form #}
+<form method="post" action="{{ path('grupo_delete', {'id': grupo.id}) }}" onsubmit="return confirm('{{ 'mensaje.confirmacion_eliminar'|trans({},'mensaje') }}');">
+    <input type="hidden" name="_method" value="DELETE">
+    <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ grupo.id) }}">
+    <button class="btn btn-danger btn-sm"><i class="fas fa-trash agenda-ico"></i>{{ 'etiqueta.boton_eliminar'|trans }}</button>
+</form>

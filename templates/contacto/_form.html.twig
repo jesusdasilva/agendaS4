@@ -1,0 +1,15 @@
+{#  agendaS4/templates/contacto/_form.html.twig #}
+
+{# Formulario _form #}
+{{ form_start(form) }}
+
+    {# Todos los campos #}
+    {{ form_widget(form) }}
+
+    {# Botón #}
+    <button class="btn btn-success btn-sm">
+        <i class="fas fa-save agenda-ico"></i>
+        {{ button_label|default('etiqueta.boton_guardar'|trans) }}
+    </button>
+
+{{ form_end(form) }}

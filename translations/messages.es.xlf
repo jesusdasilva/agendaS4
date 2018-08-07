@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="es" target-language="es" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="item">
+                <source>item</source>
+                <target>Item</target>
+            </trans-unit>
+            <trans-unit id="nombre">
+                <source>nombre</source>
+                <target>Nombre</target>
+            </trans-unit>
+            <trans-unit id="acciones">
+                <source>acciones</source>
+                <target>Acciones</target>
+            </trans-unit>
+            <trans-unit id="descripcion">
+                <source>descripcion</source>
+                <target>Descripción</target>
+            </trans-unit>
+            <!-- Etiquetas de botones -->
+            <trans-unit id="etiqueta_boton_listado">
+                <source>etiqueta.boton_listado</source>
+                <target>Regresar al listado</target>
+            </trans-unit>
+            <trans-unit id="etiqueta_boton_nuevo">
+                <source>etiqueta.boton_nuevo</source>
+                <target>Crear nuevo</target>
+            </trans-unit>
+            <trans-unit id="etiqueta_boton_mostrar">
+                <source>etiqueta.boton_mostrar</source>
+                <target>Mostrar</target>
+            </trans-unit>
+            <trans-unit id="etiqueta_boton_editar">
+                <source>etiqueta.boton_editar</source>
+                <target>Editar</target>
+            </trans-unit>
+            <trans-unit id="etiqueta_boton_actualizar">
+                <source>etiqueta.boton_actualizar</source>
+                <target>Actualizar</target>
+            </trans-unit>
+            <trans-unit id="etiqueta_boton_guardar">
+                <source>etiqueta.boton_guardar</source>
+                <target>Guardar</target>
+            </trans-unit>
+            <trans-unit id="etiqueta_boton_eliminar">
+                <source>etiqueta.boton_eliminar</source>
+                <target>Eliminar</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

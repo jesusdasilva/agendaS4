@@ -1,0 +1,31 @@
+{# agendaS4/templates/grupo/show.html.twig #}
+
+{# Plantilla base del grupo #}
+{% extends '/grupo/base.html.twig' %}
+
+{# Importar Macro #}
+{% import "macros.html.twig" as macros %}
+
+{# Cuerpo de la plantilla #}
+{% block body %}
+
+    {# Cabecera #}
+    {{ include('_cabecera.html.twig', {
+            'cabecera_encabezado': 'grupo.titulo_mostrar'|trans({},'grupo'),
+            'botonera_link_index' : path('grupo_index'),
+            'botonera_link_edit' : path('grupo_edit', {'id': grupo.id}),
+            'botonera_form_delete' : 'grupo/_delete_form.html.twig'
+        })
+    }}
+
+    {# Valores para la tabla show #}
+    {% set table_show_campos = [
+            { 'nombre' : 'nombre'|trans, 'valor': grupo.nombre },
+            { 'nombre' : 'descripcion'|trans, 'valor': grupo.descripcion }
+        ]
+    %}
+
+    {# Tabla show #}
+    {{ macros.table_show( table_show_campos ) }}
+
+{% endblock body %}

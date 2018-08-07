@@ -1,0 +1,20 @@
+{# agendaS4/templates/grupo/edit.html.twig #}
+
+{# Plantilla base del grupo #}
+{% extends '/grupo/base.html.twig' %}
+
+{# Cuerpo de la plantilla #}
+{% block body %}
+
+    {# Cabecera #}
+    {{ include('_cabecera.html.twig', {
+            'cabecera_encabezado': 'grupo.titulo_editar'|trans({},'grupo'),
+            'botonera_link_index' : path('grupo_index'),
+            'botonera_form_delete' : 'grupo/_delete_form.html.twig'
+        })
+    }}
+
+    {# Formulario edit #}
+    {{ include( 'grupo/_form.html.twig', { 'button_label': 'etiqueta.boton_actualizar'|trans } ) }}
+
+{% endblock body %}

@@ -1,0 +1,31 @@
+{# agendaS4/templates/grupo/index.html.twig #}
+
+{# Plantilla base del grupo #}
+{% extends '/grupo/base.html.twig' %}
+
+{# Importar Macro #}
+{% import "macros.html.twig" as macros %}
+
+{# Cuerpo de la plantilla base #}
+{% block body %}
+
+    {# Cabecera #}
+    {{ include('_cabecera.html.twig', {
+            'cabecera_encabezado': 'grupo.titulo_listado'|trans ({},'grupo'),
+            'botonera_link_new' : path('grupo_new'),
+        })
+    }}
+
+    {# campos de tabla_index #}
+    {% set  table_index_titulos = [
+            'item'|trans,
+            'nombre'|trans,
+            'acciones'|trans,
+        ]
+    %}
+
+    {# Tabla index #}
+    {{ macros.table_index( table_index_titulos , grupos, 'grupo_show', 'grupo_edit' ) }}
+    </div>
+
+{% endblock body %}

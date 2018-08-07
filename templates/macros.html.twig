@@ -1,0 +1,49 @@
+{# agendaS4/templates/macros.html.twig #}
+
+{# Tabla show #}
+{% macro table_show( table_show_campos ) %}
+    <table class="table table-bordered table-striped agenda-tabla-show">
+        <tbody>
+    {% for campo in table_show_campos %}
+            <tr>
+                <th>{{ campo.nombre }}</th>
+                <td>{{ campo.valor }}</td>
+            </tr>
+    {% endfor %}
+        </tbody>
+    </table>
+{% endmacro table_show %}
+
+
+{# Tabla index #}
+{% macro table_index( table_index_titulos, table_index_valores, botonera_link_show, botonera_link_edit ) %}
+    <table class="table table-striped table-bordered agenda-tabla-index">
+        <thead>
+            <tr>
+    {% for titulo in table_index_titulos %}
+                <th>{{ titulo }}</th>
+    {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+    {% for valor in table_index_valores %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>{{ valor.nombre }}</td>
+                <td>
+                    {# Botonera #}
+                    {{ include('_botonera.html.twig', {
+                            'botonera_link_show' : path( botonera_link_show, {'id': valor.id}),
+                            'botonera_link_edit' : path( botonera_link_edit, {'id': valor.id}),
+                        })
+                    }}
+                </td>
+            </tr>
+    {% else %}
+            <tr>
+                <td colspan="{{ (table_index_titulos|length + 2) }}">{{ 'mensaje.tabla_vacia'|trans({},'mensaje') }}</td>
+            </tr>
+    {% endfor %}
+        </tbody>
+    </table>
+{% endmacro table_index %}

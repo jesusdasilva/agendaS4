@@ -1,0 +1,29 @@
+{# agendaS4/templates/grupo/_form.html.twig #}
+
+{# Formulario _form #}
+{{ form_start(form) }}
+
+    {# Nombre #}
+    {{ form_row( form.nombre, {
+            'label':'grupo.etiqueta_nombre',
+            'help':'grupo.ayuda_nombre',
+            'translation_domain':'grupo'
+        })
+    }}
+
+    {# Descripción #}
+    {{ form_row(form.descripcion, {
+            'label':'grupo.etiqueta_descripcion',
+            'help':'grupo.ayuda_descripcion',
+            'translation_domain':'grupo',
+            'required':false
+        })
+    }}
+
+    {# Botón #}
+    <button class="btn btn-success btn-sm">
+        <i class="fas fa-save agenda-ico"></i>
+        {{ button_label|default('etiqueta.boton_guardar'|trans) }}
+    </button >
+
+{{ form_end(form) }}

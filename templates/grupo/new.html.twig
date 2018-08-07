@@ -1,0 +1,19 @@
+{# agendaS4/templates/grupo/new.html.twig #}
+
+{# Plantilla base del grupo #}
+{% extends '/grupo/base.html.twig' %}
+
+{# Cuerpo de la plantilla #}
+{% block body %}
+
+    {# Cabecera #}
+    {{ include('_cabecera.html.twig', {
+            'cabecera_encabezado': 'grupo.titulo_nuevo'|trans({},'grupo'),
+            'botonera_link_index': path('grupo_index')
+        })
+    }}
+
+    {# Formulario new #}
+    {{ include('grupo/_form.html.twig') }}
+
+{% endblock body %}

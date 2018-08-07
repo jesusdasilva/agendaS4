@@ -1,0 +1,25 @@
+{#  agendaS4/templates/contacto/new.html.twig #}
+
+{# Plantilla base del contacto #}
+{% extends '/contacto/base.html.twig' %}
+
+{# Cuerpo de la plantilla base #}
+{% block body %}
+
+    {# Botonera #}
+    <div class="row agenda-botonera">
+        <div class="col-sm-6">
+            <h4><i class="fas fa-address-book agenda-ico"></i>{{ 'contacto.titulo_nuevo'|trans({},'contacto') }}</h4>
+        </div>
+        <div class="col-sm-6 text-right">
+            <a class="btn btn-primary btn-sm" role="button" href="{{ path('contacto_index') }}">
+                <i class="fas fa-list agenda-ico"></i>
+                {{ 'etiqueta.boton_listado'|trans }}
+            </a>
+        </div>
+    </div>
+
+    {# Formulario #}
+    {{ include('contacto/_form.html.twig') }}
+
+{% endblock body %}

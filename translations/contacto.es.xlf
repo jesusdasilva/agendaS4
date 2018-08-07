@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="es" target-language="es" datatype="plaintext" original="file.ext">
+        <body>
+            <!-- Etiquetas -->
+            <trans-unit id="contacto_etiqueta_nombre">
+                <source>contacto.etiqueta_nombre</source>
+                <target>Nombre</target>
+            </trans-unit>
+            <trans-unit id="contacto_etiqueta_direccion">
+                <source>contacto.etiqueta_direccion</source>
+                <target>Dirección</target>
+            </trans-unit>
+            <trans-unit id="contacto_etiqueta_telefono">
+                <source>contacto.etiqueta_telefono</source>
+                <target>Teléfono</target>
+            </trans-unit>
+            <trans-unit id="contacto_etiqueta_email">
+                <source>contacto.etiqueta_email</source>
+                <target>Email</target>
+            </trans-unit>
+            <trans-unit id="contacto_etiqueta_grupo">
+                <source>contacto.etiqueta_grupo</source>
+                <target>Grupo</target>
+            </trans-unit>
+            <!-- Títulos -->
+            <trans-unit id="contacto_titulo_listado">
+                <source>contacto.titulo_listado</source>
+                <target>Listado de Contatos</target>
+            </trans-unit>
+            <trans-unit id="contacto_titulo_mostrar">
+                <source>contacto.titulo_mostrar</source>
+                <target>Contacto</target>
+            </trans-unit>
+            <trans-unit id="contacto_titulo_nuevo">
+                <source>contacto.titulo_nuevo</source>
+                <target>Nuevo Contacto</target>
+            </trans-unit>
+            <trans-unit id="contacto_titulo_editar">
+                <source>contacto.titulo_editar</source>
+                <target>Editar Contacto</target>
+            </trans-unit>
+            <!-- Mensajes de ayudas -->
+            <trans-unit id="contacto_ayuda_nombre">
+                <source>contacto.ayuda_nombre</source>
+                <target>Nombre completo</target>
+            </trans-unit>
+            <trans-unit id="contacto_ayuda_direccion">
+                <source>contacto.ayuda_direccion</source>
+                <target>Dirección completa</target>
+            </trans-unit>
+            <trans-unit id="contacto_ayuda_telefono">
+                <source>contacto.ayuda_telefono</source>
+                <target>Puede incluir varios teléfono</target>
+            </trans-unit>
+            <trans-unit id="contacto_ayuda_email">
+                <source>contacto.ayuda_email</source>
+                <target>Correo electrónico</target>
+            </trans-unit>
+            <trans-unit id="contacto_ayuda_grupo">
+                <source>contacto.ayuda_grupo</source>
+                <target>Grupo al que pertenece</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

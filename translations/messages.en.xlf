@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="es" target-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="item">
+                <source>item</source>
+                <target>Item</target>
+            </trans-unit>
+            <trans-unit id="nombre">
+                <source>nombre</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="acciones">
+                <source>acciones</source>
+                <target>Acctions</target>
+            </trans-unit>
+            <trans-unit id="descripcion">
+                <source>descripcion</source>
+                <target>Description</target>
+            </trans-unit>
+            <!-- Etiquetas de botones -->
+            <trans-unit id="etiqueta_boton_listado">
+                <source>etiqueta.boton_listado</source>
+                <target>Return to the list</target>
+            </trans-unit>
+            <trans-unit id="etiqueta_boton_nuevo">
+                <source>etiqueta.boton_nuevo</source>
+                <target>Create new</target>
+            </trans-unit>
+            <trans-unit id="etiqueta_boton_mostrar">
+                <source>etiqueta.boton_mostrar</source>
+                <target>show</target>
+            </trans-unit>
+            <trans-unit id="etiqueta_boton_editar">
+                <source>etiqueta.boton_editar</source>
+                <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="etiqueta_boton_actualizar">
+                <source>etiqueta.boton_actualizar</source>
+                <target>Update</target>
+            </trans-unit>
+            <trans-unit id="etiqueta_boton_guardar">
+                <source>etiqueta.boton_guardar</source>
+                <target>Save</target>
+            </trans-unit>
+            <trans-unit id="etiqueta_boton_eliminar">
+                <source>etiqueta.boton_eliminar</source>
+                <target>Delete</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="es" target-language="es" datatype="plaintext" original="file.ext">
+        <body>
+            <!-- Etiquetas -->
+            <trans-unit id="grupo_etiqueta_nombre">
+                <source>grupo.etiqueta_nombre</source>
+                <target>Nombre</target>
+            </trans-unit>
+            <trans-unit id="grupo_etiqueta_descripcion">
+                <source>grupo.etiqueta_descripcion</source>
+                <target>Descripción</target>
+            </trans-unit>
+            <!-- Titulos -->
+            <trans-unit id="grupo_titulo_listado">
+                <source>grupo.titulo_listado</source>
+                <target>Listado de Grupos</target>
+            </trans-unit>
+            <trans-unit id="grupo_titulo_mostrar">
+                <source>grupo.titulo_mostrar</source>
+                <target>Grupo</target>
+            </trans-unit>
+            <trans-unit id="grupo_titulo_nuevo">
+                <source>grupo.titulo_nuevo</source>
+                <target>Nuevo Grupo</target>
+            </trans-unit>
+            <trans-unit id="grupo_titulo_editar">
+                <source>grupo.titulo_editar</source>
+                <target>Editar Grupo</target>
+            </trans-unit>
+            <!-- Mensajes de ayudas -->
+            <trans-unit id="grupo_ayuda_nombre">
+                <source>grupo.ayuda_nombre</source>
+                <target>Identificación del grupo</target>
+            </trans-unit>
+            <trans-unit id="grupo_ayuda_descripcion">
+                <source>grupo.ayuda_descripcion</source>
+                <target>Breve descripción del grupo</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

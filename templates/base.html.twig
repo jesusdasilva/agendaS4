@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{% block title %}Agenda de Contactos con Symfony 4{% endblock %}</title>
+        <link rel="stylesheet" href="{{ asset('build/css/app.css') }}" >
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        {% include('_nav_bar.html.twig') %}
+        <div class="container agenda-cuerpo">
+            {% include '_mensaje.html.twig' %}
+            {% block body %}{% endblock %}
+        </div>
+        <script src="{{ asset('build/js/app.js') }}" ></script>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

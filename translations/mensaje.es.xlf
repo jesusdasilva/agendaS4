@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="es" target-language="es" datatype="plaintext" original="file.ext">
+        <body>
+            <!-- Mensajes flash -->
+            <trans-unit id="mensaje_nuevo">
+                <source>mensaje.nuevo</source>
+                <target>Se agregó el Registro</target>
+            </trans-unit>
+            <trans-unit id="mensaje_editar">
+                <source>mensaje.editar</source>
+                <target>Se actualizó el Registro</target>
+            </trans-unit>
+            <trans-unit id="mensaje_eliminar">
+                <source>mensaje.eliminar</source>
+                <target>Se eliminó el Registro</target>
+            </trans-unit>
+            <!-- Error al eliminar un Registro -->
+            <trans-unit id="mensaje.error_eliminar">
+                <source>mensaje.error_eliminar</source>
+                <target>Error al borrar el Regisro</target>
+            </trans-unit>
+            <trans-unit id="mensaje.error_eliminar_23000">
+                <source>mensaje.error_eliminar_23000</source>
+                <target>Error al borrar, el Regisro tiene datos asociados</target>
+            </trans-unit>
+            <trans-unit id="mensaje.error_eliminar_otro">
+                <source>mensaje.error_eliminar_otro</source>
+                <target>Error al borrar el registro, número del error:</target>
+            </trans-unit>
+            <!-- Mensaje confirmacion de borrado  _delete_form -->
+            <trans-unit id="mensaje_confirmacion_eliminar">
+                <source>mensaje.confirmacion_eliminar</source>
+                <target>¿Estas seguro que desea borrar el item?</target>
+            </trans-unit>
+            <!-- Mensaje tabla vacia -->
+            <trans-unit id="mensaje_tabla_vacia">
+                <source>mensaje.tabla_vacia</source>
+                <target>Na hay registros que mostar</target>
+            </trans-unit>
+            <!-- Mensaje no hay grupos para asociar con el contacto -->
+            <trans-unit id="mensaje_tabla_vacia_grupo">
+                <source>mensaje.tabla_vacia_grupo</source>
+                <target>Debe crear un Grupo para asociar al contacto</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

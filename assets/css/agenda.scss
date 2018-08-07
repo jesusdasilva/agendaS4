@@ -1,0 +1,49 @@
+// assets/css/agenda.scss
+
+// Separación entre el contenido y la barra de tareas
+.agenda-cuerpo {
+  min-height: 75rem;
+  padding-top: 3.5rem;
+}
+
+// Imágen de la agenda
+.agenda-imagen {
+    margin-right: 20px;
+    width: 3%;
+    height: 3%;
+}
+
+// Estilo de los iconos
+.agenda-ico{
+    margin-right: 5px;
+}
+
+// Barra superior
+.agenda-cabecera{
+    //margin-bottom: 2px;
+    //margin-top: 5px;
+    //background: $red;
+    //display: inline-block;
+    //margin-left: 5px;
+}
+
+// Tabla index
+table.agenda-tabla-index {
+    th { text-align: center; }
+    th:first-child { width: 10%; }
+    th:nth-child(2) { width: 60%; }
+    th:last-child { width: 30%; }
+    td{ height: 5px;}
+    td:first-child { text-align: center;}
+    td:last-child { text-align: center;}
+    a {
+        width: 100px;
+        margin-bottom: 1px;
+    }
+}
+
+// Tabla show
+table.agenda-tabla-show {
+    td { width: 80%; }
+    tr:nth-child(2)  { height: 80px; }
+}
