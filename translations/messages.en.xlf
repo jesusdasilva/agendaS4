@@ -47,6 +47,48 @@
                 <source>etiqueta.boton_eliminar</source>
                 <target>Delete</target>
             </trans-unit>
+            <!-- Barra de navegación -->
+            <trans-unit id="nombre_aplicacion">
+                <source>nombre_aplicacion</source>
+                <target>Address Book</target>
+            </trans-unit>
+            <trans-unit id="inicio">
+                <source>inicio</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit id="salir">
+                <source>salir</source>
+                <target>Exit</target>
+            </trans-unit>
+            <!-- Menú -->
+            <trans-unit id="menu">
+                <source>menu</source>
+                <target>Menu</target>
+            </trans-unit>
+            <trans-unit id="grupos">
+                <source>grupos</source>
+                <target>Groups</target>
+            </trans-unit>
+            <trans-unit id="contactos">
+                <source>contactos</source>
+                <target>Contacts</target>
+            </trans-unit>
+            <trans-unit id="perfiles">
+                <source>perfiles</source>
+                <target>Profile</target>
+            </trans-unit>
+            <trans-unit id="usuarios">
+                <source>usuarios</source>
+                <target>Users</target>
+            </trans-unit>
+            <trans-unit id="ayuda">
+                <source>ayuda</source>
+                <target>Help</target>
+            </trans-unit>
+            <trans-unit id="acerca_de">
+                <source>acerca_de</source>
+                <target>About</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

@@ -1,27 +1,27 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
   <img class="agenda-imagen" src="{{ asset('build/images/agenda2.png') }}"  alt="">
-  <a class="navbar-brand" href="#">Agenda de Contacto</a>
+  <a class="navbar-brand" href="#">{{ 'nombre_aplicacion'|trans }}</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
     <ul class="navbar-nav">
         <li class="nav-item active">
-            <a class="nav-link" href="{{ path('inicio_index') }}"><i class="fas fa-home agenda-ico"></i>Inicio</a>
+            <a class="nav-link" href="{{ path('inicio_index') }}"><i class="fas fa-home agenda-ico"></i>{{ 'inicio'|trans }}</a>
         </li>
         <li class="nav-item active dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="fas fa-caret-square-down agenda-ico"></i>Menu
+              <i class="fas fa-caret-square-down agenda-ico"></i>{{ 'menu'|trans }}
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="{{ path('grupo_index') }}"><i class="fas fa-users agenda-ico"></i>Grupos</a>
-              <a class="dropdown-item" href="{{ path('contacto_index') }}"><i class="fas fa-address-book agenda-ico"></i>Contactos</a>
+              <a class="dropdown-item" href="{{ path('grupo_index') }}"><i class="fas fa-users agenda-ico"></i>{{ 'grupos'|trans }}</a>
+              <a class="dropdown-item" href="{{ path('contacto_index') }}"><i class="fas fa-address-book agenda-ico"></i>{{ 'contactos'|trans }}</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#"><i class="fas fa-user agenda-ico"></i>Usuarios</a>
-              <a class="dropdown-item" href="#"><i class="fas fa-user-lock agenda-ico"></i>Perfiles</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-user agenda-ico"></i>{{ 'usuarios'|trans }}</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-user-lock agenda-ico"></i>{{ 'perfiles'|trans }}</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#"><i class="fas fa-question agenda-ico"></i>Ayuda</a>
-              <a class="dropdown-item" href="#"><i class="fas fa-info agenda-ico"></i>Acerca de</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-question agenda-ico"></i>{{ 'ayuda'|trans }}</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-info agenda-ico"></i>{{ 'acerca_de'|trans }}</a>
             </div>
       </li>
     </ul>
@@ -30,7 +30,7 @@
               <a class="nav-link" href="#"><i class="fas fa-user-circle agenda-ico"></i>Usuario<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-              <a class="nav-link" href="#"><i class="fas fa-sign-out-alt agenda-ico"></i>Salir</a>
+              <a class="nav-link" href="#"><i class="fas fa-sign-out-alt agenda-ico"></i>{{ 'salir'|trans }}</a>
           </li>
       </ul>
   </div>
