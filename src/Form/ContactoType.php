@@ -13,15 +13,8 @@ use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\Extension\Core\Type\EmailType;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 
-use Symfony\Component\Translation\TranslatorInterface;
-
-
 class ContactoType extends AbstractType
 {
-    public function __construct(TranslatorInterface $traductor)
-    {
-        $this->traductor = $traductor;
-    }
 
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
